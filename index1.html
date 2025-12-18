@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт компьютеров - ИП Мухамади Хафиз</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: #1a73e8;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service {
+            background-color: #ffffff;
+            padding: 20px;
+            flex: 1 1 200px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+
+        .contact-form button {
+            background-color: #1a73e8;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a73e8;
+            color: white;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            .services {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ИП Мухамади Хафиз - Ремонт компьютеров</h1>
+</header>
+
+<nav>
+    <a href="#about">О компании</a>
+    <a href="#services">Услуги</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<section id="about">
+    <h2>О компании</h2>
+    <p>ИП Мухамади Хафиз предоставляет профессиональные услуги по ремонту и обслуживанию компьютеров и ноутбуков. Мы гарантируем качественную работу и индивидуальный подход к каждому клиенту.</p>
+</section>
+
+<section id="services">
+    <h2>Наши услуги</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Диагностика ПК</h3>
+            <p>Полная диагностика вашего компьютера для выявления проблем и предложений по их устранению.</p>
+        </div>
+        <div class="service">
+            <h3>Ремонт компьютеров</h3>
+            <p>Ремонт и замена компонентов, настройка операционной системы и программного обеспечения.</p>
+        </div>
+        <div class="service">
+            <h3>Установка ПО</h3>
+            <p>Установка и обновление операционных систем, драйверов и необходимого программного обеспечения.</p>
+        </div>
+        <div class="service">
+            <h3>Чистка и обслуживание</h3>
+            <p>Чистка от пыли, профилактическое обслуживание и продление срока службы вашего устройства.</p>
+        </div>
+        <div class="service">
+            <h3>Сетевые настройки</h3>
+            <p>Настройка интернет-соединения, Wi-Fi, роутеров и локальных сетей.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Контакты</h2>
+    <p>ИП Мухамади Хафиз</p>
+    <p>ИНН: 760806771045</p>
+    <p>Телефон: <a href="tel:+79108107206">+7 (910) 810-72-06</a></p>
+    <p>Email: <a href="mailto:mukhamadikhafiz@mail.ru">mukhamadikhafiz@mail.ru</a></p>
+
+    <div class="contact-form">
+        <h3>Связаться с нами</h3>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Ваш email" required>
+            <textarea name="message" rows="5" placeholder="Сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2025 ИП Мухамади Хафиз. Все права защищены.
+</footer>
+
+</body>
+</html>
